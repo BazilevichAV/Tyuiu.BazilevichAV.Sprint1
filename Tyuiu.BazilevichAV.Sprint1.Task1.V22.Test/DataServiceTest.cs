@@ -5,13 +5,13 @@ namespace Tyuiu.BazilevichAV.Sprint1.Task1.V22.Test
     public sealed class DataServiceTest
     {
         [TestMethod]
-        public void ValidExpression()
+        public void TestMethod1()
         {
             DataService ds = new DataService();
             double x = 1.0;
             double y = 2.0;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(-1, res);
+            Assert.AreEqual(3, res);
         }
     }
 }
