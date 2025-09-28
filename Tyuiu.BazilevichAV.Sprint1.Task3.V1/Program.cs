@@ -30,7 +30,7 @@ h = Convert.ToDouble(Console.ReadLine());
 
 Console.WriteLine("***********************************************************");
 Console.WriteLine("* РЕЗУЛЬТАТ:                                              *");
-Console.WriteLine("*******************************************************?***");
+Console.WriteLine("***********************************************************");
 
 Console.WriteLine("Объем цилиндра = " + Math.Round(ds.CylinderVolume(r, h), 3));
 Console.ReadLine();
