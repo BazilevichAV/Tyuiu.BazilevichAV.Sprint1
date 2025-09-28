@@ -10,8 +10,8 @@ namespace Tyuiu.BazilevichAV.Sprint1.Task3.V0.Test
             DataService ds = new DataService();
             double r = 1;
             double h = 2;
-            double wait = Math.Round((6.283185307179586), 3);
-            var res = Math.Round(ds.CylinderVolume(r, h), 3);
+            double wait = 6.283;
+            double res = ds.CylinderVolume(r, h);
             Assert.AreEqual(wait, res);
         }
     }

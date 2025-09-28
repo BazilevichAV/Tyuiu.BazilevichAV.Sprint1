@@ -5,7 +5,7 @@ namespace Tyuiu.BazilevichAV.Sprint1.Task3.V0.Lib
     {
         public double CylinderVolume(double r, double h)
         {
-            return Math.PI * r * r * h;
+            return Math.Round(Math.PI * r * r * h, 3);
         }
     }
 }

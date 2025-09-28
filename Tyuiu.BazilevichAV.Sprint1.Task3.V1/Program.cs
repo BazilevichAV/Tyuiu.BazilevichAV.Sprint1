@@ -32,5 +32,5 @@ Console.WriteLine("***********************************************************")
 Console.WriteLine("* РЕЗУЛЬТАТ:                                              *");
 Console.WriteLine("***********************************************************");
 
-Console.WriteLine("Объем цилиндра = " + Math.Round(ds.CylinderVolume(r, h), 3));
+Console.WriteLine("Объем цилиндра = " + ds.CylinderVolume(r, h));
 Console.ReadLine();
